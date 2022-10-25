@@ -1,0 +1,34 @@
+.form {
+  width: 100%;
+  margin: 2em 0;
+  justify-content: center;
+}
+.form h1 {
+  text-align: center;
+}
+.form p {
+  text-align: center;
+}
+
+.form_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  padding: 0.7em;
+}
+
+textarea::placeholder {
+  color: #7b7b7b;
+}
